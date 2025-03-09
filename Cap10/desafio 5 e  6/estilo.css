@@ -1,0 +1,53 @@
+/* Define um fundo suave e centraliza o conteúdo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Ajusta a foto de perfil */
+img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+/* Estiliza os títulos */
+h1 {
+    color: #333;
+}
+
+h2 {
+    color: #555;
+}
+
+/* Ajusta os links das redes sociais */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+li img {
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #0073e6;
+}
+
+a:hover {
+    color: #ff4500;
+}
