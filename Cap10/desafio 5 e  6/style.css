@@ -1,0 +1,61 @@
+/* Estilo geral da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabeçalhos */
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* Imagem do perfil */
+.foto-perfil {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+/* Lista de redes sociais */
+.social-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.social-links li {
+    display: inline-block;
+    margin: 15px;
+    font-size: 18px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.social-links .social-icon {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+/* Efeito de hover nos links */
+.social-links a:hover {
+    color: #0077b5; /* Cor de destaque */
+}
+
+.social-links li:hover {
+    background-color: #e0e0e0;
+    padding: 10px;
+    border-radius: 5px;
+}
