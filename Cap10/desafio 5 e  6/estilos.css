@@ -1,0 +1,25 @@
+body {
+    background-color: red;
+}
+
+footer {
+    text-align: center;
+    background-color: blueviolet;
+    border-radius: 1px 1px 1px 1px;
+    padding: 3px;
+
+}
+
+section h1 {
+    background-color: blue;
+    color: black;
+
+}
+
+section p {
+    background-color: green;
+}
+
+ul {
+    background-color: yellow;
+}
