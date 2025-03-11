@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Dinâmicas</title>
+</head>
+<body>
+    <h1>Trabalhando com imagens que mudam de tamanho</h1>
+    <p>As imagens vao se adaptar de acordo com a necessidade do cliente.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="treino-imagens/charmander.png" type="image/png">
+
+        <source media="(max-width: 1050px)" srcset="treino-imagens/charmeleon.png" type="image/png">
+        
+        <img src="treino-imagens/charizard.png" alt="foto-flexível">
+    </picture>
+</body>
+</html>
