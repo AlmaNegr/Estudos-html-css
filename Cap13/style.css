@@ -1,0 +1,32 @@
+@charset "UTF-8";/* Usando pra não ter problemas com caracteres especiais.*/
+
+
+* { /* * {} configurações globais*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to right, #FFF2E0, #FFBD99);
+}
+
+main {
+    background-color: white;
+    border-radius: 10px; /*As pontas do background ficaram arredondadas*/
+    box-shadow: 5px 5px 15px #916b5799; /*Os primeiro 10 pra direita o seg pra baixo o terc pra espalhar tipo transparência.*/
+    width: 600px; /*largura*/
+    margin: auto; /*ajusta para o meio e tambem se aumentar ou diminuir a página*/
+    padding: 10px; /*Essa borda de espaço pra ficar tudo mais arrumadinho*/
+}
+
+h1 {
+    color: #FFA835;
+    text-align: center; /*Alinha o que for*/
+    text-shadow: 1px 1px 3px #30231cca;
+}
+
+h2 {
+    color: #003366;
+}
+p {
+    text-align: justify;/*Alinha o texto dos parágrafos de forma justificada, deixando as margens esquerda e direita uniformes.*/
+}
