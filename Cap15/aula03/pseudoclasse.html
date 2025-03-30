@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-Classe</title>
+    <style>
+        div {
+            display: inline-block;/*Deixou as divs alinhadas*/
+            background-color: rgb(201, 182, 182);
+            border: 1px solid black;
+            text-align: center;
+            height: 200px;
+            width: 200px;
+            transition: background-color 0.3s ease;
+        }
+
+        div  p {
+            display: none;
+            padding: 5px;
+        }
+        div:hover  p{/*div com : é uma pseudo-classe(representa o estado que oq você ta mexendo está.)*/
+            background-color: yellow;
+            display: block;
+
+        }
+    </style>
+</head>
+<body>
+    <div>01
+        <p>texto 1</p>
+    </div>
+    <div>02
+        <p>texto 2</p>
+    </div>
+    <div>03
+        <p>texto 3</p>
+    </div>
+</body>
+</html>
