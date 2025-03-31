@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links/Classe/Pseudo-Classe</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a {
+            background-color: green;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:active {
+            background-color: blue;
+        }
+
+        a:visited {
+            color: white;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: black;
+        }
+
+        a::after {
+            content: ' <=';
+        }
+
+        a::before {
+            content: '>>';
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+    <h1>Estudo de links</h1>
+    <ul>
+        <li><a href="https://github.com/AlmaNegr" target="_blank" rel="external">Repositório Github</a></li>
+        <li>Canal Youtube</li>
+    </ul>
+</body>
+</html>
