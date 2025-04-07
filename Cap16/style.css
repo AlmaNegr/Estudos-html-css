@@ -10,9 +10,14 @@ header {
     margin: 10px;
 }
 
+h1 {
+    box-shadow: 2px 2px 2px black;
+}
+
 nav {
     background-color: lightslategray;
     padding: 3px;
+    
 }
 
 nav  a {
@@ -20,7 +25,7 @@ nav  a {
     color: white;
     font-weight: bold;
     margin-right: 30px;
-    box-shadow: 1px 1px 1px 1px;
+    
 }
 
 nav a:hover {
@@ -46,7 +51,9 @@ footer {
     background-color: black;
     color: white;
     text-align: center;
-    padding: 1px;
-    margin: 0;
+    padding: 4px;
+}
 
+footer p {
+    margin: 0px;
 }
