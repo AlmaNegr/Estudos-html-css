@@ -1,0 +1,38 @@
+body {
+    background-color: rgba(0, 128, 0, 0.34);
+    margin: 0px;
+    
+}
+
+header {
+    background-color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 10px;
+}
+
+header nav {
+    padding-top: 10px;
+}
+
+header h1 {
+    text-align: center;
+}
+
+header p {
+    text-align: center;
+
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 8px;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
