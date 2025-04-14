@@ -49,6 +49,9 @@ nav {
 
 article {
     background-color: white;
+    max-width: 1000px;
+    min-width: 300px;
+    margin: auto;
 }
 
 article h1 {
@@ -58,6 +61,14 @@ article h1 {
 
 article h2 {
     font-family: var(--fonte-android);
+}
+
+article img {
+    width: 100%;
+}
+
+article img.pequena {
+    width: 50%;
 }
 
 footer {
