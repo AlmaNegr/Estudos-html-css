@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de responsividade</title>
+    <style>
+        body {
+            background-color: gray;
+        }
+
+        main {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            min-width: 320px;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        @font-face {
+            font-family: 'Android';
+            src: url('../fontes/idroid.otf');
+        }
+        :root {
+            --cor
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Testando responsividade</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, incidunt officiis saepe aut ipsum omnis quasi est praesentium. Commodi quo sint blanditiis, tempora culpa nobis cumque labore voluptatum quisquam. Ducimus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit nobis sunt a mollitia quae cumque neque architecto fuga in deleniti, sequi iste aut nesciunt, doloribus, magni maiores eos illo assumenda? Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, nulla eum repellendus saepe culpa ullam earum minus hic nostrum esse, nam ea ab, ducimus provident? Sunt consectetur magni quisquam distinctio.</p>
+        <picture>
+            <source media="(max-width: 600px)" srcset="imagens/irina-blok-pq.jpg">
+            <img src="imagens/irina-blok.jpg" alt="Irina Blok"></picture>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, incidunt officiis saepe aut ipsum omnis quasi est praesentium. Commodi quo sint blanditiis, tempora culpa nobis cumque labore voluptatum quisquam. Ducimus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit nobis sunt a mollitia quae cumque neque architecto fuga in deleniti, sequi iste aut nesciunt, doloribus, magni maiores eos illo assumenda? Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, nulla eum repellendus saepe culpa ullam earum minus hic nostrum esse, nam ea ab, ducimus provident? Sunt consectetur magni quisquam distinctio.</p>
+    </main>
+</body>
+</html>
