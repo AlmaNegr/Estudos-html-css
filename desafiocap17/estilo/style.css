@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: 'android';
-    src: url('/fontes/idroid.otf') format('opentype');
+    src: url('../fontes/idroid.otf') format('opentype');
     font-weight: normal;
 }
 
@@ -30,9 +30,7 @@
 
 body {
     background-color: bisque;
-    margin: 0px;
     font-family: 'android';
-
 }
 
 main {
@@ -50,49 +48,67 @@ main p {
 
 header {
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
-    padding: 10px;
-    height: 150px;
+    text-align: center;
+    min-height: 150px;
+    padding-top: 40px;
 }
 
 header h1 {
-    font-size: 48px;
+    font-size: 3em;
     text-align: center;
     color: white;
+    font-weight: normal;
+    margin-bottom: 20px;
     font-family: var(--beb);
     text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.251)
-
 }
 
 header p {
     font-size: 19px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    max-width: 600px;
+    padding-left: 10px;
+    padding-right: 10px;
     color: white;
-    margin-top: 10px;
+    margin: auto;
 }
 
 nav {
-    margin-top: 20px;
+    padding: 10px;
+    background-color: var(--cor5)
+
 }
 
 nav a {
     padding: 10px;
+    font: normal bold 16px sans-serif;
     text-decoration: none;
+    border-radius: 5px;
     color: white;
     font-weight: bold;
     text-shadow: 2px 2px 2px black;
 }
 
+nav a:hover {
+    background-color: var(--cor4);
+    color: var(--cor3)
+}
+
 main h1 {
-    font-family: var(--orb);
+    font-family: var(--padrão);
     color: var(--cor2)
 }
 
 main h2 {
     background-image: linear-gradient(to right, var(--cor1), transparent);
     font-weight: normal;
-    font-family: var(--beb);
+    font-family: var(--padrão);
     color: var(--cor4)
+}
+
+main article p {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 img {
