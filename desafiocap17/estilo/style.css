@@ -73,6 +73,26 @@ nav a:hover {
     transition: 0.5s;
 }
 
+main a {
+    padding: 2px 3px;
+    text-decoration: none;
+    background-color: var(--cor0);
+    color: var(--cor2);
+    font-weight: bold;
+}
+
+main a:hover {
+    text-decoration: underline;
+    
+
+}
+
+
+strong {
+    color: var(--cor0);
+    font-weight: bold;
+}
+
 main {
     background-color: white;
     padding: 20px;
@@ -106,6 +126,14 @@ main article h2 {
 
 main article img {
     margin-bottom: 10px;
+    width: 100%;
+
+}
+
+.pequena {
+    display: block;
+    margin: auto;
+    max-width: 400px;
 }
 
 aside {
