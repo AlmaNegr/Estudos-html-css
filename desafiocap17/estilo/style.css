@@ -83,8 +83,10 @@ main a {
 
 main a:hover {
     text-decoration: underline;
-    
+}
 
+main a::after {
+    content: ' \1F517';
 }
 
 
@@ -98,7 +100,7 @@ main {
     padding: 20px;
     max-width: 1000px;
     min-width: 300px;
-    line-height: 1.6em;
+    line-height: 1.8em;
     margin: auto;
     
 }
@@ -107,7 +109,7 @@ main article h1 {
     font-family: var(--destaque);
     font-weight: normal;
     color: var(--cor1);
-    font-size: 1.5em;
+    font-size: 1.9em;
     margin-bottom: 10px;
 }
 
@@ -118,16 +120,34 @@ main article p {
 }
 
 main article h2 {
+    background-image: linear-gradient(to right, var(--cor3), transparent);
     font-family: var(--destaque);
     font-weight: normal;
     color: var(--cor0);
     margin-bottom: 10px;
+    padding: 0px 0px 0px 7px;
 }
 
 main article img {
     margin-bottom: 10px;
     width: 100%;
 
+}
+
+div.video {
+    background-color: var(--cor3);
+    padding: 20px;
+    margin: 0px -20px 30px -20px;
+    padding-bottom: 56.5%;
+    position: relative;
+}
+
+div.video iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
 }
 
 main article iframe {
@@ -156,6 +176,10 @@ aside h3 {
     border-radius: 10px 10px 0px 0px;
     margin: -10px -10px 10px -10px;
 
+}
+
+aside p a {
+    text-decoration: none;
 }
 
 aside ul {
