@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Bebas+Neue&family=Fredericka+the+Great&family=Kaushan+Script&family=Orbitron:wght@400..900&family=Special+Elite&display=swap');
+
+body {
+    background-color: #fffafa;
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+header {
+    text-align: center;
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    padding: 10px;
+    margin-bottom: 80px;
+}
+
+header h1 {
+    color: white;
+    font-size: 3.5em;
+    font-weight: bolder;
+}
+
+header p {
+    color: white;
+    font-size: 1.8em;
+}
+
+header a {
+    font-size: 1.2em;
+    text-decoration: none;
+    color: white;
+    padding-left: 5px;
+}
+
+header abbr {
+    text-decoration: none;
+}
+
+header a:hover {
+    display: inline-block;
+    color: rgb(191, 124, 17);
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+main {
+    margin: 30px;
+}
+
+#img1 {
+    height: 400px;
+    width: 100%;
+    background-image: url('../imagens/passarinho.jpg');
+}
