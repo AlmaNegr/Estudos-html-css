@@ -50,9 +50,10 @@ main {
 }
 
 main p {
+    
     font-family: 'Courier New', Courier, monospace;
     line-height: 1.8em;
-    font-size: 1.5em;
+    font-size: 2.5rem;
     font-weight: bold;
 }
 
@@ -66,18 +67,20 @@ main p {
     background-attachment: fixed;
     position: absolute;
     padding: 20px;
+    margin-left: -30px;
+    margin-bottom: 10px;
     
 }
 
 #img1 p {
     display: inline-block;
     background-color: rgba(20, 12, 12, 0.24);
-    padding: 5px;
     margin-top: 0px;
     margin-bottom: 0px;
     margin-left: 0px;
     color: white;
     margin: auto;
+    padding: 20px;
     
 }
 
@@ -85,12 +88,12 @@ main p {
     background-image: url('../imagens/caatinha1.jpeg');
     position: absolute;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
     background-attachment: fixed;
-    height: 305px;
     width: 100%;
-    padding: 5px;
+    padding: 20px;
     margin-bottom: 0px;
+    margin: auto;
 }
 
 #img2 p {
@@ -100,6 +103,7 @@ main p {
     margin: 0px;
     background-color: rgba(27, 26, 26, 0.384);
     color: white;
+    margin: auto;
 }
 
 footer {
@@ -108,4 +112,10 @@ footer {
     background-color: black;
     color: white;
     padding: 1px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
 }
