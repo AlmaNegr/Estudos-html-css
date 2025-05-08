@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    background-image: url('https://tse4.mm.bing.net/th?id=OIP.g9tMC5UWNTKtP0kA64iPLAHaEo&pid=Api&P=0&h=180');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 600px;
+    border-collapse: collapse;
+    position: relative;
+}
+
+thead tr th{
+    background-color: blue;
+    position: sticky;
+    top: -1px;
+}
+
+.letra {
+    font-family: "Bungee Inline", sans-serif;
+}
+
+tfoot {
+    background-color: red;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+tbody td {
+    text-align: right;
+}
+
+tbody tr:nth-child(2n-1) {
+    background-color: yellow;
+}
