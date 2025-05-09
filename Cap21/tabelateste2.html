@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            height: 95vh;
+            font-family: 'Courier New', Courier, monospace;
+            position: relative;
+        }
+
+        table {
+            position: absolute;
+            background-color: lightgreen;
+            background-image: url('https://tse1.mm.bing.net/th?id=OIP.mbFp5OTUjlNX5KuVUcRmMgHaHa&pid=Api&P=0&h=180');
+            background-repeat: no-repeat;
+            background-size: 80px;
+            background-position: center center;
+            width: 400px;
+            border-collapse: collapse;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        td {
+            border: 1px solid blue;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Mesclagem de células</h1>
+    <table>
+        <tr>
+            <td>A</td>
+            <td colspan="2">C</td>
+        </tr>
+        <tr>
+            <td>D</td>
+            <td>E</td>
+            <td>F</td>
+        </tr>
+        <tr>
+            
+            <td colspan="2">H</td>
+            <td rowspan="2">I</td>
+        </tr>
+        <tr>
+            
+            <td colspan="2">L</td>
+            
+        </tr>
+    </table>
+</body>
+</html>
