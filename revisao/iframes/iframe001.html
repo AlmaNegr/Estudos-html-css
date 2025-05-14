@@ -3,20 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Iframe</title>
+    <title>Iframes</title>
     <style>
         body {
+            background-color: rgb(245, 247, 248);
             font-family: Arial, Helvetica, sans-serif;
         }
 
         iframe {
             width: 95vw;
-            height: 400px;
+            height: 300px;
+            border: 2px solid black;
         }
     </style>
 </head>
 <body>
-    <h1>Uso de Iframe</h1>
-    <iframe src="https://www.cursoemvideo.com/curso/curso-html5-e-css3-modulo-4-de-5-40-horas/aulas/modulo-04-2/modulos/capitulo-22-aula-5-conteudo-no-iframe-por-codigo/"></iframe>
+    <heaer>
+        <h1>Estudos dos Iframes</h1>
+        <ul>
+            <li><a href="pagina-extra/pag001.html" target="frame">Página 1</a></li>
+            <li><a href="pagina-extra/pag002.html" target="frame">Página 2</a></li>
+            <li><a href="#">Página 3</a></li>
+        </ul>
+    </heaer>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore quis debitis voluptates vitae quae laborum quidem quibusdam quas? Laborum repudiandae deleniti harum consectetur tenetur delectus optio, animi culpa! Vel, explicabo! lore</p>
+
+    <iframe id="tela" name="frame" srcdoc="<h1>Tela de Standby</h1><p>Importando uma imagem pra ficar na tela de Standby</p><img src='../imagens/cursoemvideo.png'>"></iframe>
 </body>
 </html>
