@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <style>
+        #saida {
+            background-color: blue;
+            color: white;
+            height:;
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Meu Script</h1>
+    <a href="#" onclick="clicou()">Clique aqui</a>
+    <div id="saida"></div>
+    <script>
+        function clicou() {
+            var s = document.getElementById('saida')
+            s.innerHTML += '<p>Clicou!</p>'
+        }
+    </script>
+</body>
+</html>
