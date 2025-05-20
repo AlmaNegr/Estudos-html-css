@@ -3,51 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario</title>
-    <style>
-        * {
-            font-family: Arial, Helvetica, sans-serif;
-        }
-
-        body {
-            background-color: blue;
-        }
-
-        h1 {
-            text-align: center;
-        }
-
-        form {
-            display: block;
-            margin: auto;
-            background-color: white;
-            width: 300px;
-            padding: 10px;
-            border-radius: 10px;
-        }
-
-        p {
-            font-weight: bold;
-            text-align: left;
-        }
-
-        input {
-            border-radius: 5px;
-            font-weight: bold;
-            padding: 5px;
-        }
-    </style>
+    <title>Formulário</title>
 </head>
 <body>
-    <h1>Meu Formulário</h1>
-    <form action="cadastro.php" autocomplete="off">
-        <p><label for="iname">Nome:</label> 
-            <input type="text" name="name" id="iname">
-        </p>
-        <p><label for="isobrenome">Sobrenome:</label> 
-            <input type="text" name="sobrenome" id="isobrenome">
-        </p>
-        <p><input type="submit" value="Enviar"></p>
-    </form>
+    <header>
+        <h1>Formulário</h1>
+        <p>Testando as funcionalidades dos formulários</p>
+    </header>
+    <main>
+        <section>
+            <form action="cadastro.php" method="POST" autocomplete="on">
+                <p>
+                    <label for="iusu">Usuário:</label>
+                    <input type="text" name="usu" id="iusu" required minlength="5" maxlength="8" size="10" autocomplete="username" placeholder="Nome do usuário">
+                </p>
+                <p>
+                    <label for="isenha">Senha:</label>
+                    <input type="password" name="senha" id="isenha" required minlength="5" size="10" autocomplete="current-password" placeholder="Digite sua senha">
+                </p>
+                <p>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpar">
+                </p>
+            </form>
+        </section>
+    </main>
 </body>
 </html>
