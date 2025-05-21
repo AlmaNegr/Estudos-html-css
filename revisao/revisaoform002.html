@@ -1,29 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Exemplo de formulário</h1>
+    <h1>Formulario</h1>
     <form action="cadastro.php" method="get">
         <fieldset>
-            <legend>Dados pessoais</legend>
+            <legend>Dados Pessoais</legend>
             <p>
                 <label for="inome">Nome</label>
-                <input type="text" name="nome" id="inome" required placeholder="Nome completo" minlength="5" maxlength="40">
+                <input type="text" name="nome" id="inome" required maxlength="40" placeholder="Nome Completo" autocomplete="name">
             </p>
             <p>
                 <label for="iemail">E-mail</label>
-                <input type="email" name="email" id="iemail" autocomplete="email" required>
+                <input type="email" name="email" id="iemail" required placeholder="nome@email.com">
             </p>
             <p>
                 <label for="itel">Telefone</label>
-                <input type="tel" name="tel" id="itel" autocomplete="tel" required pattern="^\(\d{2}\)\d{4,5}\d{4}$" placeholder="(xx) xxxx-xxxx">
+                <input type="tel" name="tel" id="itel" required placeholder="(99) 99999-9999" pattern="^\(\d{2}\)\d{4,5}\d{4}$">
             </p>
         </fieldset>
-        <!-- Estudar mais sobre Regex -->
         <p>
             <input type="submit" value="Enviar">
             <input type="reset" value="Limpar">
