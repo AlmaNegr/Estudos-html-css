@@ -3,3 +3,59 @@
 body, html {
     background-color: lightgrey;
 }
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(148, 145, 145);
+}
+
+header h1 {
+    background-color: rgb(204, 198, 198);
+    padding: 10px;
+    text-align: center;
+}
+
+menu {
+    display: block;
+}
+
+menu ul {
+    list-style-type: none;
+}
+
+menu a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    border-top: 2px solid rgb(94, 88, 88);
+}
+
+menu a:hover {
+    background-color: rgb(208, 200, 200);
+}
+
+main {
+    width: 90vw;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    margin: auto;
+}
+
+article h2 {
+    padding-bottom: 20px;
+}
+
+article p { 
+    margin-top: 20px;
+    text-indent: 20px;
+    text-align: justify;
+}
