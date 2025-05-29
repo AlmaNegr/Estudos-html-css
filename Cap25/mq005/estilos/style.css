@@ -7,11 +7,12 @@ body, html {
 * {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
-    padding: 0;
+    padding: 0px;
 }
 
 header {
     background-color: rgb(148, 145, 145);
+    margin-bottom: 10px;
 }
 
 header h1 {
@@ -20,8 +21,22 @@ header h1 {
     text-align: center;
 }
 
-menu {
+#burguer {
+    background-color: rgb(64, 62, 62);
     display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+#burguer:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+menu {
+    display: none;
 }
 
 menu ul {
@@ -52,6 +67,8 @@ main {
 
 article h2 {
     padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
 }
 
 article p { 
