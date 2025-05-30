@@ -14,11 +14,18 @@ header {
     background-color: gray;
     text-align: center;
     margin-bottom: 10px;
-    padding-bottom: 10px;
 }
 
 header h1 {
-    margin-bottom: 15px;
+    background-color: lightgray;
+    color: white;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.604);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#itens:hover {
+    background-color: blue;
 }
 
 header ul {
@@ -26,15 +33,18 @@ header ul {
 }
 
 header li {
-    margin: 10px;
     border-top: 1px solid lightgray;
 }
 
 header a {
     display: block;
+    padding: 10px;
     text-decoration: none;
     color: white;
-    
+}
+
+header a:hover {
+    background-color: lightgray;
 }
 
 main {
