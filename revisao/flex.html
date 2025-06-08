@@ -5,29 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flex-Box</title>
     <style>
-       .caixa {
-        height: 400px;
-        background-color: blue;
-        display: flex;
-        flex-flow: row wrap;
-        align-items: flex-end;
-       }
+        .caixa {
+            background-color: blue;
+            color: white;
+            height: 300px;
+            display: flex;
+            flex-flow: row wrap;
+            align-items: flex-start;
+            
+            
+        }
 
-       .item {
-        background-color: yellow;
-        border: 1px solid black;
-        padding: 30px;
-       }
+        .item {
+            border: 1px solid black;
+            background-color: red;
+            padding: 30px;
+            flex-basis: 40px;
+            
+        }
+
+        #a {
+            order: 8;
+            align-self: stretch;
+            flex: 0 1 60px;
+        }
+
+        #b {
+            order: 4;
+            align-self: center;
+        }
+
+        #c {
+            order: 2;
+            align-self: flex-end;
+        }
     </style>
 </head>
 <body>
     <div class="caixa">
-        <div class="item">A</div>
-        <div class="item">B</div>
-        <div class="item">C</div>
-        <div class="item">D</div>
-        <div class="item">E</div>
-        <div class="item">C</div>
+        <div class="item" id="a">A</div>
+        <div class="item" id="b">B</div>
+        <div class="item" id="c">C</div>
         <div class="item">D</div>
         <div class="item">E</div>
     </div>
