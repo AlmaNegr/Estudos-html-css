@@ -10,8 +10,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
     line-height: 1.5em;
-    width: 100vw;
-    height: 100vh;
 }
 
 p {
@@ -25,17 +23,19 @@ h1, h2 {
     text-align: left;
 }
 
-header section.normal {
+header, section.normal {
     padding: 20px;
 }
 
 section.flex-content {
     padding: 20px;
     background-color: lightgrey;
+    display: flex;
+    flex-flow: column nowrap;
 }
 
 section article {
-    border: 2px dashed green;
+
 }
 
 article.text-media {
