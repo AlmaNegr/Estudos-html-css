@@ -10,56 +10,52 @@
 body {
     height: 100vh;
     width: 100vw;
+    background-color: lightgray;
 }
 
-header, section.normal {
+header, .normal {
+    background-color: white;
     padding: 20px;
 }
 
 section.flex-content {
-    background-color: lightgray;
+    padding: 20px;
     display: flex;
     flex-flow: column nowrap;
-    padding: 20px;
 }
 
 article.foto-texto {
-    border: 2px dotted black;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    
-    
 }
 
-article.foto-texto div.texto {
+.foto-texto .foto {
+    flex: 1 0 400px;
+
+}
+
+/*.foto-texto .foto img {
+    display: block;
+    margin: auto;
+}
+*/
+
+article.foto-texto .texto {
     flex: 1 1 500px;
 }
 
-article.foto-texto div.foto {
-
-    flex: 0 0 400px;
-}
-
-article.foto-texto div.foto img {
-    display: block;
-    margin: auto;
-    width: 300px;
-    height: 300px;
-}
-
-article.texto-video {
-    border: 2px dotted green;
-    display: flex;
-    flex-flow: row-reverse wrap;
-}
-
-article.texto-video {
+article.text-video {
+    padding: 20px;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
 }
 
-article.texto-video .texto {
-    flex: 1 1 400px;
+.texto-video .texto {
+    flex: 1 1 500px;
+}
+
+.texto-video .video {
+    flex: 1 0 400px;
 }
