@@ -7,11 +7,12 @@
     <style>
      .container {
         border: 3px solid yellow;
-        height: 250px;
         display: grid;
         grid-template: repeat(3, auto) / repeat(3, auto);
         gap: 20px;
-        place-items: center start;
+        grid-template-rows: 50px 50px 50px;
+        grid-template-columns: auto auto auto;
+        place-items: normal normal;
         place-content: space-between end;
      }
 
