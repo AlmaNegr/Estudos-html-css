@@ -3,73 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grid Layout na prática</title>
+    <title>Revisando</title>
     <style>
-        @charset "UTF-8";
+        .container {
+            background-color: blueviolet;
+            border: 3px solid blue;
+            display: grid;
+            gap: 15px;
+            grid-template-columns: repeat(4, 1fr);
+            grid-auto-rows: repeat(3, 1fr);
+            align-items: normal;
+            justify-items: end;
+            align-content: space-between;
+            justify-content: ;
 
-        * {
-            padding: 0px;
-            margin: 0px;
-            font-family: Arial, Helvetica, sans-serif;
-            box-sizing: border-box;
         }
 
-        body {
-            height: 100vh;
-            width: 100vw;
-            background-color: lightgray;
-        }
-
-        header {
-            background-color: white;
-            padding: 20px;
-            display: flex;
-            flex-flow: row wrap;
-            align-items: center;
-            justify-content: space-between;
-        }
-
-        header h1 {
-            border: 1px dotted black;
-            flex: 0 0 200px;
-            
-        }
-
-        nav {
-            display: flex;
-            padding: 10px;
-            border: 1px dotted green;
-            flex-flow: row wrap;
-        }
-
-        nav a {
-            background-color: black;
+        .item {
+            border: 3px solid red;
             padding: 5px;
-            border-radius: 7px;
-            text-decoration: none;
-            color: white;
-            margin: 5px;
+            text-align: center;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Meu Site</h1>
-        <nav>
-            <a href="#">opção 1</a>
-            <a href="#">opção 2</a>
-            <a href="#">opção 3</a>
-            <a href="#">opção 4</a>
-            <a href="#">opção 5</a>
-            <a href="#">opção 6</a>
-        </nav>
-    </header>
-    <main>
-        <section>
-            <h2>Testando flex box</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta omnis maxime dolore possimus dicta cumque rem voluptate, ratione vitae laboriosam rerum? Soluta repellendus aut praesentium eligendi recusandae nulla eaque nostrum? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem ipsam, esse ad deleniti alias, commodi recusandae porro doloremque odio quisquam voluptates mollitia sapiente cumque aut nisi praesentium nemo, iste exercitationem?</p>
-        </section>
-    </main>
-</body>
+     <div class="container">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
+        <div class="item">F</div>
+        <div class="item">G</div>
+        <div class="item">H</div>
+    </div>
 </body>
 </html>
