@@ -7,62 +7,40 @@
     <style>
         .container {
             display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            grid-template-rows: repeat(4, auto);
-            gap: 5px;
+            grid-template-columns: repeat(3, auto);
+            grid-template-rows: repeat(4, 100px);
+            gap: 10px;
         }
 
-        .item1 {
-            background-color: gray;
-            color: white;
-            text-align: center;
-            padding: 10px;
-            grid-row-start: 1;
-            grid-column-start: 1;
-            grid-column-end: 5;
-        }
-
-        .item2 {
-            background-color: blue;
-            color: white;
-            padding: 5px;
-            text-align: center;
-            grid-row-start: 2;
-            grid-column-start: 1;
-            grid-column-end: 5;
-        }
-
-        .item3 {
-            height: 100px;
+       .item1 {
             background-color: red;
             color: white;
-            text-align: center;
-            grid-row-start: 3;
+            grid-row-start: 1;
+            grid-row-end: 2;
             grid-column-start: 1;
-            grid-column-end: 3;
-        }
+            grid-column-end: 4;
+       }
 
-        .item4 {
+       .item2 {
+            background-color: blue;
+            grid-row: 2 / 3;
+            grid-column: 1 / 4;
+       }
+
+       .item3 {
             background-color: green;
-            color: white;
-            text-align: center;
-            grid-row-start: 3;
-            grid-column-start: 3;
-            grid-column-end: 5
-        }
+            grid-area: 3 / 1 / 4 / 3;
+       }
 
-        .item5 {
-            background-color: rgba(255, 34, 0, 0.445);
-            text-align: center;
-            color: rgb(255, 255, 255);
-            grid-row-start: 4;
-            grid-column-start: 1;
-            grid-column-end: 5;
-        }
+       .item4 {
+            background-color: pink;
+            grid-area: 3 / 3 / 4 / 4;
+       }
 
-
-
-        
+       .item5 {
+        background-color: yellow;
+        grid-area: 4 / 1 / 5 / span 3;
+       }
     </style>
 </head>
 <body>
