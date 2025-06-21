@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio-Grid</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(4, auto);
+            gap: 5px;
+        }
+
+        .item1 {
+            background-color: gray;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            grid-row-start: 1;
+            grid-column-start: 1;
+            grid-column-end: 5;
+        }
+
+        .item2 {
+            background-color: blue;
+            color: white;
+            padding: 5px;
+            text-align: center;
+            grid-row-start: 2;
+            grid-column-start: 1;
+            grid-column-end: 5;
+        }
+
+        .item3 {
+            height: 100px;
+            background-color: red;
+            color: white;
+            text-align: center;
+            grid-row-start: 3;
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+
+        .item4 {
+            background-color: green;
+            color: white;
+            text-align: center;
+            grid-row-start: 3;
+            grid-column-start: 3;
+            grid-column-end: 5
+        }
+
+        .item5 {
+            background-color: rgba(255, 34, 0, 0.445);
+            text-align: center;
+            color: rgb(255, 255, 255);
+            grid-row-start: 4;
+            grid-column-start: 1;
+            grid-column-end: 5;
+        }
+
+
+
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item1">Topo</div>
+        <div class="item2">Menu</div>
+        <div class="item3">Principal</div>
+        <div class="item4">Secundário</div>
+        <div class="item5">Rodapé</div>
+    </div>
+</body>
+</html>
