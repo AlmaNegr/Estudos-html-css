@@ -8,12 +8,16 @@
         .container {
             display: grid;
             grid-template-columns: repeat(3, auto);
-            grid-template-rows: repeat(4, 100px);
+            grid-template-rows: 40px 40px 300px 40px;
             gap: 10px;
+            border: 3px dotted orange;
+            background-color: salmon;
         }
 
        .item1 {
             background-color: red;
+            text-align: center;
+            line-height: 40px;
             color: white;
             grid-row-start: 1;
             grid-row-end: 2;
@@ -22,17 +26,23 @@
        }
 
        .item2 {
+            text-align: center;
+            line-height: 40px;
             background-color: blue;
             grid-row: 2 / 3;
             grid-column: 1 / 4;
        }
 
        .item3 {
+            text-align: center;
+            line-height: 300px;
             background-color: green;
             grid-area: 3 / 1 / 4 / 3;
        }
 
        .item4 {
+            text-align: center;
+            line-height: 300px;
             background-color: pink;
             grid-area: 3 / 3 / 4 / 4;
        }
@@ -40,6 +50,8 @@
        .item5 {
         background-color: yellow;
         grid-area: 4 / 1 / 5 / span 3;
+        text-align: center;
+        line-height: 40px;
        }
     </style>
 </head>
