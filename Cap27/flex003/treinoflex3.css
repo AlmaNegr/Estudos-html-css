@@ -1,0 +1,11 @@
+.container {
+    height: 100px;
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    flex-flow: column;
+}
+.item {
+    border: 1px solid black;
+    text-align: center;
+}
